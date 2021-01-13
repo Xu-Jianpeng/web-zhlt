@@ -1,0 +1,135 @@
+.header{
+    margin-top:-30px;
+    margin-bottom:-10px;
+    width:"100%";
+    height:120px;
+    background-image:url("../images/首页/bridge.png"); 
+    background-size: 100% 110px;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.header-contanier {
+    height: 50px;
+    background-color: rgba(60, 65, 70, 0.9);
+
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+.logo-link {
+    max-width: 1130px;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    position: relative;
+    height: 17.9%;
+    margin-top: 20px;
+}
+
+.main {
+    max-width: 1130px;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    position: relative;
+    height: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.nav_item:hover{
+    color:white;
+}
+
+.nav_item_active {
+    position: relative;
+    color: #C06812;
+    cursor: default;
+}
+
+.nav_item_active:after {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    content: " ";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color:white;
+}
+
+.nav_item, .nav_more, .nav_more_location {
+    position: relative;
+    text-align: center;
+    z-index: 20;
+    float: left;
+    font-size: 24px;
+    color: darkturquoise;
+    margin: 14px 1.6% 0;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "华文新魏";
+}
+
+#footer{
+    width:100%;
+}
+
+#content1{
+    float: left;
+    /* height: 300px ; */
+    width: 15%;
+    /* background-color:rgba(144, 199, 247, 0.568); */
+    background-color:lightsteelblue;
+    position:fixed;
+}
+
+#content2{
+    float:right;
+    width:82%;
+    /* height: 2600px ; */
+    /* background-color: rgba(128, 128, 128, 0.9); */    
+    background-color:rgba(204, 248, 255, 0.8);
+}
+
+.menu{
+    margin-right: 30px;
+    line-height: 50px;
+}
+
+.menu ul{
+    width:1024px;
+    height: 52px;
+}
+
+.menu li{
+    width:113px;
+    text-align: center;
+    float:left;
+}
+
+.menu li:hover,.this{
+    border-bottom: 3px solid #02b7ca;
+    color: #02b7ca;
+}
+
+.menu li:hover,.this a{
+    color: #02b7ca;
+}
+
+.menu li a{
+    font-weight: 500;
+    color:rgb(0,118,184);
+    text-decoration: none;
+}
+
+.bodystyle{
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity:0.5;
+    opacity: 0.5;
+}
